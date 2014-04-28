@@ -1,18 +1,15 @@
-<ul><h1>Kamilla's Blog</h1>
-	<li><a href="about.html">About Me</a></li>
-	<li><a href="contact.html">Contact Me</a></li>
-	<li><a href="post1.html">First Post</a>
-		<details>
-			<summaru>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="post1.html">Read More</a></summary>
-			</details>
+---
+layout: default
+title: Kamilla's Blog
+---
 
-	</li>
-	li><a href="post2.html">First Post</a>
-		<details>
-			<summaru>Clearly, blogging isn't for me <a href="post2.html">Read More</a></summary>
-			</details>
-
-	</li>
-
-	<li><a href="post2.html">Second Post</a></li>
-</ul>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <span class="posttitle"><a href="{{ post.url }}"></span>{{ post.title }}</a>
+      	<p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

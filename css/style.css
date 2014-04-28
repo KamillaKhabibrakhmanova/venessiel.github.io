@@ -1,0 +1,248 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*@font-face {
+  font-family: 'Rock+Salt';
+  src: url(http://fonts.googleapis.com/css?family=Rock+Salt);
+}*/
+
+div {
+  border: 1px dashed black;
+  /*font-family: 'Rock Salt';*/
+}
+
+html, body { height: 100%; }
+
+html {
+  background-image: url("http://www.keithdotson.com/wp-content/uploads/2012/10/the-story-tree.jpeg?w=648&h=432");
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 {
+  font-size: 24px;
+  font-weight: thick;
+}
+
+h1 { margin-bottom: 1em; margin-top: 20px;}
+p { margin: 1em 0; }
+
+a         { color: gray; }
+a:hover   { color: red; }
+a:visited { color: gray; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+  color: black;
+  size: 1.5em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+span .posttitle{
+  font-size: 24px;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  /*width: 70%;*/
+  margin: 0em 0em 0em 0em;
+  line-height: 1.5em;
+  background-color: white;
+  border: 2px dashed red;
+}
+
+.header {
+  display: block;
+  background-color: gray;
+  height: auto;
+}
+
+.header:after {
+  content: " ";
+  height: 0px;
+  visibility: none;
+  clear: both;
+  display: block;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+.title {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: black;
+  /*float: left;*/
+  margin-top: 30px;
+  font-family: 'Rock Salt', Helvetica, Arial;
+}
+
+
+.title a {
+  color: black;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  margin: 10px;
+  color: black;
+  font-size: 2em;
+  font-family: 'Rock Salt', Helvetica, Arial;
+  
+  /*margin-left: 1em;*/
+}
+
+.extra {
+  float: left;
+  margin-right: 20px;
+}
+
+.header a.extra:hover {
+  color: white;
+  font-family: 'Rock Salt', Helvatica Arial;
+}
+
+.meta {
+  color: #aaa;
+}
+
+h1 .title {
+  color: black;
+}
+
+
+.title {
+  title: black;
+}
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.footer .rss img {
+  border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+/*.posts {
+  font-size: 24px;
+  font-family: Arial, cursive;*/
+}
+
+/*****************************************************************************/
+/*
+/* Fonts
+/*
+/*****************************************************************************/
+
+
+
