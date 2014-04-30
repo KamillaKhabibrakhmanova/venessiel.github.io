@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Second Post"
+date: 2014-04-23 00:07:30
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

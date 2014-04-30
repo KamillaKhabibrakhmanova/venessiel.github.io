@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "First Post"
+date: 2014-04-28 00:07:30
 ---
 
 Well, here is my first post for my Maker Square blog, which I've left off until the last half hour before class.  I just came back to work today after a four-day staycation, which did not feel as long as two weekends at all, likely because I spent a quarter of it sitting in Austin's ridiculous traffic, while the sun was doing its best to scorch my pale skin to the bone. My original plan was to spend some of it looking at new places to live, but after walking around Clarksville for ten minutes in the 90-degree heat, I decided that the term "walkable neighborhood" was really not applicable to any part of Austin in the summer, so I should just give up and try to move to a more liveable city instead. Fortunately, I also got contacted by a coworker who asked if I wanted to be roommates with her and her micropig. Of course I had to say yes, because the micropig is super cute and she seems to be one of the few other people at work who care about their clothes. At least I now have someone else to keep me encouraged as we continue our search together. 
