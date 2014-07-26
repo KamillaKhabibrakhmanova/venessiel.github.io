@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "First Post!"
+date:   2014-04-20 00:07:28
 ---
 
 Testing

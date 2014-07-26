@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "I am back"
+date: 2014-07-22 00:07:30
+---
+
+So here I am, a few months after MakerSquare, finally getting back to work on my unfinished project. It's a great thing I still have access to class materials, as re-learning Jekyll would have been a pain.
+
+Maker Square was a blast, I made a nice wine app and learned how to use a database provider called Firebase, which made me really pleased with myself. You can check it out <a href="http://venessiel.github.io/vino"> here</a>. I feel like I still have much to learn and am very excited at the prospect of developing my skills further.
+
+Since graduating, though, I haven't been doing much. I've been really busy at work, and have been contemplating what to do with my life. I'm ready to take the leap and go to a full-time bootcamp. My main worry before was that I couldn't handle such an intense schedule. But taking evening classes after a full day of work isn't easy either, and I still enjoyed it a lot. And I definitely got that euphoric high when something I was stuck on was finally solved, and would love to keep creating new things every day, instead of fiddling with Russian cases and spreadsheets. 
+
+I've started applying to bootcamps and am back to teaching myself what I can. I've already gotten anacceptance from the Turing School in Denver and am going to wait from a few more before I make a decision. I loved the idea of going to Turing for 7 months, instead of 12 weeks like the rest of the programs I'm seeing, but looking at my budget I realized maybe shorter is not so bad. 7 months without an income plus a few months of finding a job / moving to Denver is....a lot of $$$$. 
+
+If I don't go to Denver, I'd like to either move back to New York, where I'd love to work next and where I can always fall back on free rent with my parents if money gets tight, or else stay in Austin since that just takes away the stress of moving etc, etc. San Francisco sounds like the place to be but I don't really want to spend all that cash on living expenses when I'll be in a classroom hunched over a computer most of the time anyway.
+
+Ahhh decisions, decisions....the worst form of hell for indesicives like me!

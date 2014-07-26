@@ -22,24 +22,33 @@ div {
   /*font-family: 'Rock Salt';*/
 }
 
+body {
+  border: 2px dashed red;
+  min-height:1000px;
+}
+
 html, body { height: 100%; }
 
 html {
-  background-image: url("http://www.keithdotson.com/wp-content/uploads/2012/10/the-story-tree.jpeg?w=648&h=432");
+  background-color: #eee;
+  /*background-image: url("/images/tree.jpg");*/
+  
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 100%;
 
 }
 
 
 body {
-  background-color: #FFF;
+  /*background-color: #FFF;*/
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
+  padding: 5px;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
@@ -100,8 +109,9 @@ span .posttitle{
 
 .header {
   display: block;
-  background-color: gray;
+  /*background-color: red;*/
   height: auto;
+  border-radius: 15%;
 }
 
 .header:after {
@@ -118,11 +128,14 @@ span .posttitle{
   }
 
 .title {
+  text-align: center;
   display: block;
-  margin-bottom: 1em;
   font-size: 2em;
   color: black;
   /*float: left;*/
+  margin-left: auto;
+  margin-right: auto;
+   margin-bottom: 1em;
   margin-top: 30px;
   font-family: 'Rock Salt', Helvetica, Arial;
 }
@@ -147,7 +160,7 @@ span .posttitle{
 
 .extra {
   float: left;
-  margin-right: 20px;
+  margin: 0 auto;
 }
 
 .header a.extra:hover {
@@ -166,6 +179,10 @@ h1 .title {
 
 .title {
   title: black;
+}
+
+div #home {
+  background-color:white;
 }
 
 .footer {
