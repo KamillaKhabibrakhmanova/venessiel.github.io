@@ -22,12 +22,11 @@ div {
   /*font-family: 'Rock Salt';*/
 }
 
-body {
-  border: 2px dashed red;
-  min-height:1000px;
-}
-
 html, body { height: 100%; }
+
+body {
+  min-height: 100%;
+}
 
 html {
   background-color: #eee;
@@ -73,6 +72,8 @@ a:visited { color: gray; }
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
+  padding: 1em;
+  height:100%;
 }
 
 .posts li {
@@ -104,7 +105,10 @@ span .posttitle{
   margin: 0em 0em 0em 0em;
   line-height: 1.5em;
   background-color: white;
-  border: 2px dashed red;
+}
+
+.home {
+  height:100%;
 }
 
 .header {
@@ -125,9 +129,12 @@ span .posttitle{
 .header a {
   font-weight: bold;
   text-decoration: none;
-  }
+  text-align:center;
+}
+
 
 .title {
+  width: 80%;
   text-align: center;
   display: block;
   font-size: 2em;
@@ -135,7 +142,7 @@ span .posttitle{
   /*float: left;*/
   margin-left: auto;
   margin-right: auto;
-   margin-bottom: 1em;
+  margin-bottom: 1em;
   margin-top: 30px;
   font-family: 'Rock Salt', Helvetica, Arial;
 }
@@ -149,18 +156,27 @@ span .posttitle{
   color: #000;
 }
 
+
+
 .header a.extra {
   margin: 10px;
   color: black;
-  font-size: 2em;
+  font-size: 1em;
   font-family: 'Rock Salt', Helvetica, Arial;
   
   /*margin-left: 1em;*/
 }
 
+.logo {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .extra {
   float: left;
-  margin: 0 auto;
+  margin: 0 0 0 20px;
+  border: solid 2px black;
+  padding: 0.5em;
 }
 
 .header a.extra:hover {
@@ -178,7 +194,7 @@ h1 .title {
 
 
 .title {
-  title: black;
+  color: black;
 }
 
 div #home {
