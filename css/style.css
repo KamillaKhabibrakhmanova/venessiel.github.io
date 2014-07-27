@@ -18,7 +18,7 @@
 }*/
 
 div {
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   /*font-family: 'Rock Salt';*/
 }
 
@@ -113,9 +113,10 @@ span .posttitle{
 
 .header {
   display: block;
-  /*background-color: red;*/
+  background-color: #ff99cc;
   height: auto;
-  border-radius: 15%;
+  /* border-radius: 15%; */
+  margin-top: -23px;
 }
 
 .header:after {
@@ -170,13 +171,16 @@ span .posttitle{
 .logo {
   width: 100%;
   margin: 0 auto;
+  background-color: white;
+  border: solid 2px black;
 }
 
 .extra {
   float: left;
-  margin: 0 0 0 20px;
+  margin: 10px 0 10px 20px;
   border: solid 2px black;
   padding: 0.5em;
+  background-color: white;
 }
 
 .header a.extra:hover {
